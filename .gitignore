@@ -1,0 +1,35 @@
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+
+frontend/node_modules/
+frontend/dist/
+
+*.db
+.env
+.env.*
+!.env.example
+
+.DS_Store
+# Python
+fraud-rule-engine/backend/.venv/
+fraud-rule-engine/backend/__pycache__/
+fraud-rule-engine/backend/**/*.pyc
+
+# Node
+fraud-rule-engine/frontend/node_modules/
+fraud-rule-engine/frontend/dist/
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
